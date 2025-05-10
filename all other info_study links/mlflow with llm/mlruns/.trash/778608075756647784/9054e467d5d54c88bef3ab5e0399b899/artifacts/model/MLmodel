@@ -1,0 +1,25 @@
+artifact_path: model
+flavors:
+  openai:
+    code: null
+    data: model.yaml
+    openai_version: 1.77.0
+  python_function:
+    data: model.yaml
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.openai
+    python_version: 3.13.1
+is_signature_from_type_hint: false
+mlflow_version: 2.22.0
+model_uuid: f7146e34a3884f76aadaed374650b494
+prompts: null
+run_id: 9054e467d5d54c88bef3ab5e0399b899
+signature:
+  inputs: '[{"type": "string", "required": true}]'
+  outputs: '[{"type": "string", "required": true}]'
+  params: '[{"name": "max_tokens", "default": 16, "shape": null, "type": "long"},
+    {"name": "temperature", "default": 0.0, "shape": null, "type": "float"}]'
+type_hint_from_example: false
+utc_time_created: '2025-05-08 13:33:22.617042'

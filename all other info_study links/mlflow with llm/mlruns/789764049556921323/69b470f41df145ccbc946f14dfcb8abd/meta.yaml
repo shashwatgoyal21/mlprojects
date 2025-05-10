@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/tanya/OneDrive/Desktop/personal/pdp/GenAI/krish_naik/Langchain/mlflow%20with%20llm/mlruns/789764049556921323/69b470f41df145ccbc946f14dfcb8abd/artifacts
+end_time: 1746787332447
+entry_point_name: ''
+experiment_id: '789764049556921323'
+lifecycle_stage: active
+run_id: 69b470f41df145ccbc946f14dfcb8abd
+run_name: rumbling-boar-139
+run_uuid: 69b470f41df145ccbc946f14dfcb8abd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746787314629
+status: 3
+tags: []
+user_id: tanya

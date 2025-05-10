@@ -1,0 +1,23 @@
+
+install mlflow: pip install mlflow
+
+after run: mlflow ui
+
+link to revise mlflow concepts:
+
+https://www.youtube.com/watch?v=6ngxBkx05Fs
+
+how to run a model logged into mlflow:
+
+mlflow.pyfunc.load_model(model_info.model_uri)
+
+
+login an experiment to mlflow:
+
+mlflow.set_experiment("Text Message Angel1")
+
+
+use mlflow with dagshub:
+
+
+

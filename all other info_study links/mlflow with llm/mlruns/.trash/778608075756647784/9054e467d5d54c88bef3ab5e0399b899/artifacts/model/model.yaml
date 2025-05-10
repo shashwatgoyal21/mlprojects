@@ -1,0 +1,11 @@
+messages:
+- content: 'Determine if this is an acceptable response to a friend through SMS. If
+    the response contains humorless sarcasm, a passive aggressive tone, or could potentially
+    damage my relationship with them, please respond with ''You might want to read
+    that again before pressing send.'', otherwise respond with ''Good to Go!''. If
+    the response classifies as inappropriate, please suggest a corrected version following
+    the classification that will help to keep my relationship with this person intact,
+    yet still maintains a fun and somewhat snarky tone: {text}'
+  role: user
+model: gpt-4
+task: chat.completions
